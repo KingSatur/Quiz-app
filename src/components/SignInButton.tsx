@@ -12,8 +12,6 @@ export const SignInButton = ({ text }: Props) => {
   return (
     <Button
       onClick={() => {
-        console.log("aqui amor");
-
         signIn("cognito").catch(console.error);
       }}
     >
